@@ -1,0 +1,65 @@
+@import './base.css';
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'VeluxGothic';
+  src: url('fonts/VeluxGothic.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'VeluxGothic-Light';
+  src: url('fonts/VeluxGothic-Light.ttf') format('truetype');
+}
+
+.font-velux-black {
+  color: #28231F;
+}
+
+.font-velux-grey {
+  color: #737373;
+}
+
+.font-velux-white {
+  color: #FFFFFF;
+}
+
+.font-velux {
+  font-family: 'VeluxGothic' !important;
+}
+
+.velux-bg-red {
+  background-color: #A11515;
+}
+
+.border-velux {
+  border: 1px solid #28231F;
+}
+
+.velux-bg-white {
+  background: #F5F5F5;
+}
+
+.velux-bg-grey {
+
+  background: #F8F8F8;
+}
+
+.hide-bg {
+  mix-blend-mode: multiply;
+  filter: contrast(1);
+}
+
+
+.velux-container {
+  max-width: 100%;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.velux-grid {
+  display: grid;
+  grid-template-columns: repeat(12, minmax(0, 1fr));
+  grid-gap: 1rem;
+}

@@ -1,0 +1,14 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'VeluxGothic-Light';
+  color: #28231F;
+}
+
+a,
+div,
+span,
+p {
+  color: #28231F;
+}
