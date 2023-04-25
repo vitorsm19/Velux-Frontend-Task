@@ -93,7 +93,7 @@ const filteredThree = ref(
             <img
               alt="Mon and her son looking out of a Velux window"
               class="sm:w-[1560px] mobile:max-w-[767px] mobile:w-full mobile:min-h-[377px] sm:h-auto object-cover sm:object-center mobile:object-left"
-              src="../assets/img/AppControlHero.png" />
+              src="https://raw.githubusercontent.com/vitorsm19/Velux-Task/master/src/assets/img/AppControlHero.png" />
             <div
               class="buy flex justify-end w-full gap-x-6 px-8 py-6 -mt-24 mobile:hidden">
               <p class="text-white bg-transparent flex items-center">
@@ -187,7 +187,7 @@ const filteredThree = ref(
         <div class="col-span-12 sm:col-span-6 mobile:pb-8 mobile: pt-12">
           <img
             class="w-full h-auto"
-            src="../assets/img/App3.png"
+            src="https://raw.githubusercontent.com/vitorsm19/Velux-Task/master/src/assets/img/App3.png"
             alt="Smartphone with VELUX App" />
         </div>
         <div
@@ -264,7 +264,7 @@ const filteredThree = ref(
         <div class="col-span-12 sm:col-span-6">
           <img
             class="w-full object-fill aspect-w-16 aspect-h-9 mobile:pl-16"
-            src="../assets/img/AppSchedule.png"
+            src="https://raw.githubusercontent.com/vitorsm19/Velux-Task/master/src/assets/img/AppSchedule.png"
             alt="Smartphone with VELUX app opened on the 'Schedule' function" />
         </div>
         <div
@@ -350,11 +350,11 @@ const filteredThree = ref(
               class="logos w-full h-auto flex flex-row justify-start items-center gap-6">
               <img
                 class="h-[40px] w-auto"
-                src="../assets/img/AppStore.svg"
+                src="https://raw.githubusercontent.com/vitorsm19/Velux-Task/59186aa5f55be67b3edc06990e2179f35febfee8/src/assets/img/AppStore.svg"
                 alt="AppStore icon" />
               <img
                 class="h-[40px] w-auto"
-                src="../assets/img/GooglePlay.svg"
+                src="https://raw.githubusercontent.com/vitorsm19/Velux-Task/59186aa5f55be67b3edc06990e2179f35febfee8/src/assets/img/GooglePlay.svg"
                 alt="GooglePlay icon" />
             </div>
           </div>
@@ -415,11 +415,11 @@ const filteredThree = ref(
               class="logos w-full h-auto flex flex-col justify-center items-start gap-6">
               <img
                 class="h-[56px] w-auto"
-                src="../assets/img/AppleHomeKit.svg"
+                src="https://raw.githubusercontent.com/vitorsm19/Velux-Task/59186aa5f55be67b3edc06990e2179f35febfee8/src/assets/img/AppleHomeKit.svg"
                 alt="Apple Home Kit icon" />
               <img
                 class="h-[56px] w-auto"
-                src="../assets/img/GoogleHome.svg"
+                src="https://raw.githubusercontent.com/vitorsm19/Velux-Task/59186aa5f55be67b3edc06990e2179f35febfee8/src/assets/img/GoogleHome.svg"
                 alt="Google Home icon" />
             </div>
           </div>
