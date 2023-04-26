@@ -25,10 +25,14 @@ import {
 } from "@fortawesome/fontawesome-svg-core";
 dom.watch();
 
+import router from './router';
+
 import './assets/main.css'
 
 const app = createApp(App);
 
 app.component("font-awesome-icon", FontAwesomeIcon);
+
+app.use(router);
 
 app.mount("#app");

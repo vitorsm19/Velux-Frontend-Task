@@ -80,10 +80,11 @@ const filteredThree = ref(
         id="appcontrol-hero1">
         <div
           class="col-span-3 pt-5 sm:pt-20 bg-inherit pl-4 sm:pl-8 mobile:top-20 mobile:z-10 mobile:flex mobile:items-center">
-          <i class="fas fa-arrow-left font-light pl-4"></i>
+          <i class="fas fa-arrow-left pl-4 mobile:hidden"></i>
           <span class="ml-2 text-[16px] mobile:hidden"
             >Back to Intelligent Home Control</span
           >
+          <i class="fas fa-arrow-left pl-4 sm:hidden svg-white"></i>
           <span class="ml-2 text-[16px] sm:hidden text-white font-light"
             >Back</span
           >
@@ -173,7 +174,7 @@ const filteredThree = ref(
             <img
               alt="Video preview image for the VELUX App"
               class="object-cover"
-              src="../assets/special-icons/play-icon.svg" />
+              src="https://raw.githubusercontent.com/vitorsm19/Velux-Task/fb55d4ea587afbaf8df616298ffef2c907f006a7/src/assets/special-icons/play-icon.svg" />
           </div>
           <a
             class="w-full h-[40px] sm:h-[32px] flex flex-row justify-center items-center uppercase border-4 border-velux font-velux text-[14px] leading-4 tracking-wider cursor-pointer">
@@ -209,7 +210,7 @@ const filteredThree = ref(
             <div class="flex items-start">
               <img
                 class="w-[32px] min-w-[32px] h-auto"
-                src="../assets/special-icons/app-phone-icon.svg"
+                src="https://raw.githubusercontent.com/vitorsm19/Velux-Task/fb55d4ea587afbaf8df616298ffef2c907f006a7/src/assets/special-icons/app-phone-icon.svg"
                 alt="Smartphone with VELUX app icon" />
             </div>
             <div class="flex flex-col gap-4">
@@ -225,7 +226,7 @@ const filteredThree = ref(
             <div class="flex items-start">
               <img
                 class="w-[32px] min-w-[32px] h-auto"
-                src="../assets/special-icons/microphone-icon.svg"
+                src="https://raw.githubusercontent.com/vitorsm19/Velux-Task/fb55d4ea587afbaf8df616298ffef2c907f006a7/src/assets/special-icons/microphone-icon.svg"
                 alt="Microphone icon" />
             </div>
             <div class="flex flex-col gap-4">
@@ -243,7 +244,7 @@ const filteredThree = ref(
             <div class="flex items-start">
               <img
                 class="w-[32px] min-w-[32px] h-auto"
-                src="../assets/special-icons/lock-icon.svg"
+                src="https://raw.githubusercontent.com/vitorsm19/Velux-Task/fb55d4ea587afbaf8df616298ffef2c907f006a7/src/assets/special-icons/lock-icon.svg"
                 alt="Lock icon" />
             </div>
             <div class="flex flex-col gap-4">

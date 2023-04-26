@@ -1,7 +1,7 @@
 <script setup></script>
 
 <template>
-  <header class="fixed w-full z-10 h-24">
+  <header class="fixed w-full z-50 h-24">
     <div
       class="flex justify-between items-center w-full h-full px-5 sm:px-10 velux-bg-white">
       <nav class="flex items-center gap-8 font-bold text-[18px] tablet:hidden">
@@ -27,7 +27,9 @@
           <i class="fas fa-arrow-right sm:hidden"></i>
         </a>
         <a href="" class="tablet:hidden">
-          <img src="../assets/special-icons/search-bars.svg" alt="" />
+          <img
+            src="https://raw.githubusercontent.com/vitorsm19/Velux-Task/fb55d4ea587afbaf8df616298ffef2c907f006a7/src/assets/special-icons/search-bars.svg"
+            alt="" />
         </a>
       </div>
     </div>
