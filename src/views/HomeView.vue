@@ -53,7 +53,9 @@ import { RouterLink } from "vue-router";
           <div
             class="max-h-[300px] min-h-[180px] aspect-video rounded-lg shadow-2xl cursor-pointer">
             <RouterLink to="/app-control">
-              <img src="../assets/img/AppControl-preview.jpeg" alt="" />
+              <img
+                src="https://raw.githubusercontent.com/vitorsm19/Velux-Task/master/src/assets/img/AppControl-preview.jpeg"
+                alt="App Control page preview" />
             </RouterLink>
           </div>
         </div>
@@ -66,7 +68,9 @@ import { RouterLink } from "vue-router";
           <div
             class="max-h-[300px] min-h-[180px] aspect-video rounded-lg shadow-2xl cursor-pointer">
             <RouterLink to="/srw-overview">
-              <img src="../assets/img/SRW-preview.jpeg" alt="" />
+              <img
+                src="https://raw.githubusercontent.com/vitorsm19/Velux-Task/master/src/assets/img/SRW-preview.jpeg"
+                alt="Sloped Roof Window page preview" />
             </RouterLink>
           </div>
         </div>
